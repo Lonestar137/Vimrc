@@ -20,20 +20,24 @@ nerdtree - directory navigation.
 
 
 
-Unique keybinds:
-<leader> = space
-  <leader>h,l,j,k - Move between windows, left, right, up, down respectively.
-  <leader>a, f, d, s - resize windows.
-  n, N, J - Perform normal function but center to screen.
+#### Unique keybinds:
+
+*leader* = space  
+  leader h,l,j,k - Move between windows, left, right, up, down respectively.  
+  leader a, f, d, s - resize windows.  
+  n, N, J - Perform normal function but center to screen.  
     
-  <leader>n - toggles NerdTree for directory navigation.
-  <leader>t - creates a new tab.
+  leader n - toggles NerdTree for directory navigation.  
+  leader t - creates a new tab.  
   
-Insert mode keybinds:
-    , . ! ? [ { (   - When typed, these characters create an undo break.  Meaning pressing undo will undo until it    reachs one of these characters.
+#### Insert mode keybinds:  
+
+   , . ! ? [ { (   - When typed, these characters create an undo break.  Meaning pressing undo will undo the text until it reachs one of these characters.
     
-Visual Mode:
-    J, K - Move selected text line up or down.
+#### Visual Mode:
+
+
+   J, K - Move selected text line up or down.
     
     
     
